@@ -10,7 +10,7 @@ This isn't an application or library, just lots of tests.
 
 ```sh
 git clone git@github.com:danreeves/rust-tests.git
-mv rust-tests
+cd rust-tests
 cargo test
 ```
 
