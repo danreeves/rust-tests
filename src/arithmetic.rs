@@ -1,6 +1,3 @@
-// Arithmetic tests
-
-// Integers
 #[test]
 fn addition() {
     assert_eq!(2 + 2, 4);
@@ -60,4 +57,14 @@ fn negation() {
 fn equality() {
     assert_eq!(2 == 2, true);
     assert_eq!(2 == 3, false);
+}
+
+#[test]
+fn casting_types() {
+    let x: i32 = 32;
+    let y: u64 = 64;
+
+    let z = x + y as i32;
+
+    assert_eq!(z, 96);
 }
