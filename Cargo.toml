@@ -1,0 +1,6 @@
+[package]
+name = "rust-tests"
+version = "0.1.0"
+authors = ["Dan Reeves <hey@danreev.es>"]
+
+[dependencies]
