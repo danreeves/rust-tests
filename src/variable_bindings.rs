@@ -54,7 +54,7 @@ fn scope_and_shadowing() {
 }
 
 #[test]
-fn rebinding() {
+fn shadowing() {
     let x = 2;
     assert_eq!(x, 2);
 
