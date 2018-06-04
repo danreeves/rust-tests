@@ -1,4 +1,5 @@
 mod arithmetic;
+mod functions;
 mod variable_bindings;
 
 #[test]
