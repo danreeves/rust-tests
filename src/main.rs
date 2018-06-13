@@ -5,6 +5,7 @@ mod if_expr;
 mod loops;
 mod primitives;
 mod slices;
+mod structs;
 mod variable_bindings;
 mod vectors;
 
