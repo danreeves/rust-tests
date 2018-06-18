@@ -4,6 +4,7 @@ mod enums;
 mod functions;
 mod if_expr;
 mod loops;
+mod modules;
 mod primitives;
 mod slices;
 mod structs;
