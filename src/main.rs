@@ -12,6 +12,7 @@ mod primitives;
 mod slices;
 mod strings;
 mod structs;
+mod traits;
 mod variable_bindings;
 mod vectors;
 
