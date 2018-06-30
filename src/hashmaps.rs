@@ -63,6 +63,7 @@ fn updating_based_on_old_value() {
     let mut h = HashMap::new();
     {
         let a = h.entry('a').or_insert(1);
+        // or_insert actually returns a mutable reference to the value
         *a += 1;
     }
     assert_eq!(h.get(&'a'), Some(&2));
