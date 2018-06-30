@@ -1,6 +1,7 @@
 mod arithmetic;
 mod borrowing;
 mod enums;
+mod error_handling;
 mod functions;
 mod hashmaps;
 mod if_expr;
