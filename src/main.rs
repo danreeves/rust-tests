@@ -2,6 +2,7 @@ mod arithmetic;
 mod borrowing;
 mod enums;
 mod functions;
+mod hashmaps;
 mod if_expr;
 mod loops;
 mod modules;
