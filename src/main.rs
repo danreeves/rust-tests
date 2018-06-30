@@ -3,6 +3,7 @@ mod borrowing;
 mod enums;
 mod error_handling;
 mod functions;
+mod generics;
 mod hashmaps;
 mod if_expr;
 mod loops;
