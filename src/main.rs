@@ -7,6 +7,7 @@ mod functions;
 mod generics;
 mod hashmaps;
 mod if_expr;
+mod iterators;
 mod loops;
 mod modules;
 mod primitives;
