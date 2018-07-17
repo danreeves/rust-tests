@@ -1,5 +1,6 @@
 mod arithmetic;
 mod borrowing;
+mod closures;
 mod enums;
 mod error_handling;
 mod functions;
