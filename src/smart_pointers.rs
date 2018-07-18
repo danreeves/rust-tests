@@ -1,7 +1,7 @@
 #[test]
 fn assigning_to_the_heap_with_boxes() {
     let metal_bawkses = Box::new(5);
-    assert_eq!(format!("{}", metal_bawkses), "5");
+    assert_eq!(*metal_bawkses, 5);
 }
 
 #[test]
