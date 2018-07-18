@@ -12,6 +12,7 @@ mod loops;
 mod modules;
 mod primitives;
 mod slices;
+mod smart_pointers;
 mod strings;
 mod structs;
 mod traits;
